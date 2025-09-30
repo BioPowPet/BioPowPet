@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.png" />
+    <title>BioPowPet</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Header con navegación -->
+    <header>
+      <a href="./index.html"><img src="./assets/icon.png" alt="BioPowPet" /></a>
+      <nav class="topnav" id="myTopnav">
+        <ul>
+          <li><a href="#acerca">Acerca de nosotros</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+        <div class="hamburger">
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
+        </div>
+      </nav>
+      <div class="menubar">
+        <ul>
+          <li><a href="#acerca">Acerca de nosotros</a></li>
+          <li><a href="#productos">Productos</a></li>
+          <li><a href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- About -->
+    <section id="acerca" class="section">
+      <h2>Acerca de nosotros</h2>
+      <p>
+        En <strong>BioPowPet</strong> creemos que la diversión de tus mascotas debe ser natural, 
+        segura y sostenible. Creamos juguetes ecológicos con materiales locales, libres de químicos 
+        y diseñados para el bienestar y entretenimiento de tu mejor amigo.
+      </p>
+    </section>
+
+    <!-- Sección Productos -->
+    <section id="productos" class="section">
+      <h2>Nuestros productos</h2>
+      <div class="productos-grid">
+        <div class="producto">
+          <img src="./assets/EcoBone.png" alt="Ecobone" />
+          <h3>Ecobone</h3>
+          <p>
+            Este juguete en forma de hueso combina ligereza, resistencia y
+            diversión.
+          </p>
+        </div>
+        <div class="producto">
+          <img src="./assets/EcoBall.png" alt="Comida húmeda orgánica" />
+          <h3>EcoBall</h3>
+          <p>
+            Ligera, resistente y no tóxica, facilita que tu mascota la atrape y
+            transporte con facilidad.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="pagos" class="section pagos">
+      <h2>Nuestros métodos de pago</h2>
+      <div class="pagos-grid">
+        <div class="pago">
+          <img
+            src="assets/tarjetas.webp"
+            alt="Pago con tarjeta"
+          />
+          <h3>Tarjeta de crédito / débito</h3>
+          <p>Aceptamos todas las tarjetas Visa, Mastercard y más.</p>
+        </div>
+        <div class="pago">
+          <img
+            src="assets/nequi.png"
+            alt="Nequi"
+          />
+          <h3>Nequi</h3>
+          <p>Paga fácilmente desde tu celular con Nequi.</p>
+        </div>
+        <div class="pago">
+          <img
+            src="assets/daviplata.png"
+            alt="Daviplata"
+          />
+          <h3>Daviplata</h3>
+          <p>Realiza tu pago seguro a través de Daviplata.</p>
+        </div>
+        <div class="pago">
+          <img
+            src="assets/contraentrega.png"
+            alt="Pago contraentrega"
+          />
+          <h3>Pago contraentrega</h3>
+          <p>Paga al recibir tu pedido directamente en tu domicilio.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Sección Cómo están hechos -->
+    <section id="hechos" class="section">
+      <h2>Cómo están hechos</h2>
+      <p>
+        Nuestros productos son elaborados cuidadosamente con PLA biodegradable, 
+        un material innovador y respetuoso con el medio ambiente. 
+        Gracias a sus propiedades, cada juguete no solo es una opción ecológica que 
+        contribuye a reducir el impacto ambiental, sino que también garantiza total 
+        seguridad para tu mascota. De esta manera, ofrecemos artículos que combinan
+         diversión, durabilidad y sostenibilidad, permitiéndote cuidar a tu mejor amigo
+          mientras juntos cuidan del planeta.
+      </p>
+    </section>
+    <!-- Sección de contacto -->
+    <section id="contacto" class="section contacto">
+      <h2>Contáctanos para comprar</h2>
+      <p>
+        Déjanos tus datos y nos comunicaremos contigo para coordinar tu pedido.
+      </p>
+
+      <form id="contactoForm" class="contacto-form">
+        <input type="text" id="nombre" placeholder="Tu nombre" required />
+        <input
+          type="email"
+          id="email"
+          placeholder="Tu correo electrónico"
+          required
+        />
+        <input
+          type="tel"
+          id="telefono"
+          placeholder="Tu número de teléfono"
+          required
+        />
+        <textarea
+          id="mensaje"
+          placeholder="Escribe tu mensaje o pedido"
+          rows="5"
+          required
+        ></textarea>
+        <button type="submit">Enviar pedido por WhatsApp</button>
+      </form>
+    </section>
+    <!-- Botón flotante de WhatsApp -->
+    <a href="https://wa.me/3007164950" class="whatsapp" target="_blank">
+      <img src="./assets/whatsapp.png" alt="WhatsApp" />
+    </a>
+
+    <!-- Footer -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2025 BioPowPet - Juguetes ecológicos para mascotas</p>
+        <img src="./assets/icon.png" alt="BioPowPet" />
+        <p>
+          📍 Bogotá, Colombia | 📞 +57 300 7164950 | ✉️
+          contactobiopowpet@gmail.com
+        </p>
+      </div>
+    </footer>
+  </body>
+  <script src="script.js"></script>
+</html>
